@@ -1,0 +1,31 @@
+{
+  "name": "client-server-send-crypto-date",
+  "version": "1.0.0",
+  "description": "Client send crypto data to server and back",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiy-ta/client-server-send-crypto-date.git"
+  },
+  "keywords": [
+    "Crypto",
+    "AES",
+    "JavaScript",
+    "Express"
+  ],
+  "author": "Serhii Tarlev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiy-ta/client-server-send-crypto-date/issues"
+  },
+  "homepage": "https://github.com/sergiy-ta/client-server-send-crypto-date#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

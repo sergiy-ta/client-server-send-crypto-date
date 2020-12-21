@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+</head>
+<body>
+    <header>
+        <h1>Реалізація AES алгоритму шифрування</h1>
+    </header>
+
+    <main>
+        <section id="set_text">
+            <form>
+                <label for="text">Введіть текст який потрібно зашифрувати</label><br>
+                <input type="text" name="text" id="input_text" placeholder="Текст..."><br>
+                <button id="submit_button" type="submit">Надіслати</button>
+            </form>
+        </section>
+
+        <section id="get_text_list">
+            <h2>Список збереженого тексту</h2>
+            
+            <div class="grid-2">
+                <p>Розшифровано</p>
+                <p>Зашифровано</p>
+                <ul id="text_list">
+
+                </ul>
+    
+                <ul id="text_cryptos_list">
+    
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="script/script.js"></script>
+    </footer>
+</body>
+</html>
